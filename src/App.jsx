@@ -7,6 +7,7 @@ import LoadMoreData from "./components/load";
 import QrCode from "./components/qr";
 import Theme from "./components/theme";
 import Scroll from "./components/scroll";
+import Github from "./components/github";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <QrCode />
       {/* Theme */}
       <Theme />
+      {/* Github Search */}
+      <Github />
     </div>
   );
 }
