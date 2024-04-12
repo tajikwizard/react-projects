@@ -4,6 +4,7 @@ import "./index.css";
 import RandomColor from "./components/color";
 import StarRating from "./components/star";
 import LoadMoreData from "./components/load";
+import QrCode from "./components/qr";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <StarRating numberOfStars={5} />
       {/* Load Data */}
       <LoadMoreData />
+      {/* QR Code */}
+      <QrCode />
     </>
   );
 }
