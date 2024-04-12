@@ -6,10 +6,13 @@ import StarRating from "./components/star";
 import LoadMoreData from "./components/load";
 import QrCode from "./components/qr";
 import Theme from "./components/theme";
+import Scroll from "./components/scroll";
 
 function App() {
   return (
-    <>
+    <div className="mt-10">
+      {/* Scroll */}
+      <Scroll />
       {/* Accordion */}
       <Accordion />
       {/* Random Color */}
@@ -22,7 +25,7 @@ function App() {
       <QrCode />
       {/* Theme */}
       <Theme />
-    </>
+    </div>
   );
 }
 
